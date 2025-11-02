@@ -10,7 +10,7 @@ export default function Notes() {
     return (
         <div>
             <p>Detected Note: {detectedNote}</p>
-            <Canvas />
+            <Canvas note={detectedNote} />
         </div>
     )
 }
